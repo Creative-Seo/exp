@@ -1,0 +1,12 @@
+
+npm install - установка модулей Grunt
+
+gem install compass - установка Compass
+
+compass init - установка конфигурации (config.rb)
+
+gem install compass
+
+bower install - установка пакетов Bower
+
+dploy install
