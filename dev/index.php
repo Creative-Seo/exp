@@ -21,7 +21,7 @@
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="<?php echo $rootpath; ?>avtotehnicheskaya"><img src="img/img1.jpg" alt="" class="img-responsive"></a>
+    		<a href="<?php echo $rootpath; ?>avtotehnicheskaya"><img src="img/autoexp.jpg" alt="" class="img-responsive"></a>
     	</div>
     </div>
     <div class="col-md-4">
