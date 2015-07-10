@@ -17,31 +17,31 @@
   <div class="row">
     <div class="col-md-4">
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="">Автотехническая <br> экспертиза</a></h3>
+    		<h3><a href="<?php echo $rootpath; ?>avtotehnicheskaya">Автотехническая <br> экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<img src="img/img1.jpg" alt="" class="img-responsive">
+    		<a href="<?php echo $rootpath; ?>avtotehnicheskaya"><img src="img/img1.jpg" alt="" class="img-responsive"></a>
     	</div>
     </div>
     <div class="col-md-4">
     	
     	
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="">Оценочная <br> экспертиза</a></h3>
+    		<h3><a href="<?php echo $rootpath; ?>ocenochnaya-ekspertiza">Оценочная <br> экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<img src="img/img2.jpg" alt="" class="img-responsive">
+    		<a href="<?php echo $rootpath; ?>ocenochnaya-ekspertiza"><img src="img/img2.jpg" alt="" class="img-responsive"></a>
     	</div>
     </div>
     <div class="col-md-4">
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="">Товароведческая экспертиза</a></h3>
+    		<h3><a href="<?php echo $rootpath; ?>tovarovedcheskaya-ekspertiza">Товароведческая экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<img src="img/img3.jpg" alt="" class="img-responsive">
+    		<a href="<?php echo $rootpath; ?>tovarovedcheskaya-ekspertiza"><img src="img/img3.jpg" alt="" class="img-responsive"></a>
     	</div>
     </div> 
   </div>
@@ -50,31 +50,31 @@
 <div class="row">
     <div class="col-md-4">
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="">Автотехническая <br> экспертиза</a></h3>
+    		<h3><a href="<?php echo $rootpath; ?>metallovedcheskaya-ekspertiza">Металловедческая <br> экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<img src="img/img1.jpg" alt="" class="img-responsive">
+    		<a href="<?php echo $rootpath; ?>metallovedcheskaya-ekspertiza"><img src="img/img1.jpg" alt="" class="img-responsive"></a>
     	</div>
     </div>
     <div class="col-md-4">
     	
     	
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="">Оценочная <br> экспертиза</a></h3>
+    		<h3><a href="<?php echo $rootpath; ?>ekspertiza-zdaniy">Здания и <br> сооружения</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<img src="img/img2.jpg" alt="" class="img-responsive">
+    		<a href="<?php echo $rootpath; ?>ekspertiza-zdaniy"><img src="img/img2.jpg" alt="" class="img-responsive"></a>
     	</div>
     </div>
     <div class="col-md-4">
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="">Товароведческая экспертиза</a></h3>
+    		<h3><a href="<?php echo $rootpath; ?>stroitelno-tehnicheskaya-ekspertiza">Строительно-техническая <br> экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<img src="img/img3.jpg" alt="" class="img-responsive">
+    		<a href="<?php echo $rootpath; ?>stroitelno-tehnicheskaya-ekspertiza"><img src="img/img3.jpg" alt="" class="img-responsive"></a>
     	</div>
     </div> 
   </div>

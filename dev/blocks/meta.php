@@ -10,11 +10,11 @@
     <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	
    
-    <base href="http://test.creative-seo.ru/">
+    <base href="http://localhost/exp/dev/">
   
 
   
-    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <link rel="stylesheet" href="libs/bootstrap-material-design/dist/css/ripples.css" />
 

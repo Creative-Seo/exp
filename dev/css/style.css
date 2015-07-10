@@ -15387,7 +15387,7 @@ header {
     header #logo a {
       color: #060f18;
       font-family: "PT Sans Narrow",sans-serif;
-      font-size: 44px;
+      font-size: 24px;
       font-weight: 700;
       line-height: 1em;
       text-align: center; }
@@ -16139,7 +16139,7 @@ article ul li {
   margin-top: 30px; }
   /* line 97, ../sass/style.scss */
   .service .block {
-    background-color: #1E283A;
+    background-color: #38698E;
     border-color: #fff;
     border-radius: 0;
     border-style: none;
@@ -16169,7 +16169,7 @@ article ul li {
 /* line 130, ../sass/style.scss */
 .arrow_box_bottom {
   position: relative;
-  background: #1E283A; }
+  background: #38698E; }
 
 /* line 134, ../sass/style.scss */
 .arrow_box_bottom:after {
@@ -16182,7 +16182,7 @@ article ul li {
   position: absolute;
   pointer-events: none;
   border-color: rgba(30, 40, 58, 0);
-  border-top-color: #1E283A;
+  border-top-color: #38698E;
   border-width: 30px;
   margin-left: -30px; }
 
