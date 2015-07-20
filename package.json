@@ -15,11 +15,10 @@
     "grunt-fixmyjs": "^0.3.0",
     "grunt-include-replace": "^3.0.0",
     "grunt-newer": "latest",
-    "grunt-postcss": "latest",
+    "grunt-postcss": "^0.5.5",
     "grunt-processhtml": "latest",
-    "grunt-uncss": "^0.4.3",
+    "grunt-uncss": "latest",
     "grunt-wiredep": "latest",
-    "time-grunt": "latest",
-    "grunt-uncss": "latest"
+    "time-grunt": "latest"
   }
 }

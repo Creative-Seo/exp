@@ -20,7 +20,28 @@ autoprefixer: {
                 dest: 'prod/css/style.min.css'
               }  
 },
+postcss: {
+       options: {
+      map: true, // inline sourcemaps
 
+      // or
+      map: {
+          inline: false, // save all sourcemaps as separate files...
+          annotation: 'dist/css/maps/' // ...to the specified directory
+      },
+
+      processors: [
+        require('pixrem')(), // add fallbacks for rem units
+        require('autoprefixer-core')({browsers: 'last 2 versions'}), // add vendor prefixes
+        require('cssgrace'),
+        require('cssnano')() // minify the result
+      ]
+    },
+      dist: {
+        src: ['prod/css/style.min.css'],
+        dest: 'prod/css/style.min.css'
+      }
+    },
 
 uglify: {
   my_target: {
@@ -151,6 +172,7 @@ critical: {
     grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-fixmyjs');
     grunt.loadNpmTasks('grunt-uncss');
+    grunt.loadNpmTasks('grunt-postcss');
 
     
     grunt.registerTask('all', ['csso', 'autoprefixer', 'uglify', 'copy', 'processhtml', 'htmlmin']);
