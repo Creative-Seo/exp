@@ -4,7 +4,7 @@
     <div class="row">
 		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="logo"> 
       
-      <a href="/" >Бюро независимой экспертизы</a>
+      <a href="/" >Независимая экспертиза и оценка</a>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xs-12 center-header-block">
 			
