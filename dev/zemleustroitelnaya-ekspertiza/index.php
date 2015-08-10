@@ -1,16 +1,13 @@
 <?php $title = 'Землеустроительная экспертиза'; ?>
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
-<?php 
-
-include("../blocks/meta.php");
-include("../blocks/header.php");?> 
+<?php $root='../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?> 
 
 <div class="container">
-    <div class="row"><?php include("../blocks/navbar.php"); ?></div>
+    <div class="row"><?php include($root."blocks/navbar.php"); ?></div>
 </div>
-
-
 
 <article>
    <div class="container">
@@ -113,8 +110,7 @@ include("../blocks/header.php");?>
     - иные
 </p>
 
-
       </div><!-- row -->
    </div><!-- container -->
 </article>
-<?php include("../blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

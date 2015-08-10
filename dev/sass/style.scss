@@ -2,11 +2,7 @@
 @import "bootstrap";
 
 
-
 body {font-family: $font;}
-
-
-
 
 
 @import "material";
@@ -93,40 +89,31 @@ article {
 
 .service {
     margin-top: 30px;
-
     .block {
-    background-color:#38698E;
-    border-color: #fff;
-    border-radius: 0;
-    border-style: none;
-    border-width: 0;
-    margin: 0;
-    padding: 0;
-    h3 {
-        color: #fff;
-        text-align: center;
-        padding: 15px 20px;
-        font-weight: bold;
+		background-color:#38698E;
+		border-color: #fff;
+		border-radius: 0;
+		border-style: none;
+		border-width: 0;
+		margin: 0;
+		padding: 0;
+		h3 {
+			color: #fff;
+			text-align: center;
+			padding: 15px 20px;
+			font-weight: bold;
+		}
+		a {color: #fff;}
+		p {
+			color: #fff;
+			text-align: center;
+			padding-bottom: 15px;
+			line-height: 1.7;
+		}
     }
-    a {
-        color: #fff;
-    }
-    p {
-        color: #fff;
-        text-align: center;
-        padding-bottom: 15px;
-        line-height: 1.7;
-        
-        
-    }
-
-    }
-    
 }
 
-.form-control-wrapper input{
-      margin: 30px 0;
-    }
+.form-control-wrapper input{margin: 30px 0;}
 .arrow_box_bottom {
     position: relative;
     background: #38698E;
@@ -168,3 +155,22 @@ article {
     margin-top: 20px;
     padding: 30px;
 }
+
+#modal-ok {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.3);
+    top: 0;
+	p {
+		text-align: center;
+		margin: 40vh auto 0 auto;
+		background-color: #444;
+		color: #ddd;
+		border-radius: 10px;
+		width: 200px;
+	}
+}
+input.error {border-bottom:red 1px solid; color:red;}

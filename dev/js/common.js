@@ -1,3 +1,17 @@
+function send_e(e,t){
+	var n=$(e).find('[name=name]').val(),
+		tel=$(e).find('[name=tel]').val();
+		email=$(e).find('[name=email]').val();
+		message=$(e).find('[name=message]').val();
+	$.post('/email.php',
+			{n:n,t:t,tel:tel,email:email,message:message, key:'SMs1aK4M2dIzgHYLddY1HDK3xf5nvXPi'},function(data){if (!(data)){alert('Ошибка отправки данных.');}}
+		).done(function(data) {
+			$('#modal-ok').fadeIn().delay(1000).fadeOut();
+		}).fail(function() {
+			alert('Ошибка подключения.');
+		});
+}
+
 $(function() {
 	$('#images > div').each(function() {
 		var $cfs = $(this);
@@ -31,11 +45,16 @@ $(document).ready(function() {
 	//$('ul.nav li.dropdown').hover(function() {$(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(400);}, 
 	//	function() {$(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(400);});
 
-	
-	$('.open-modal').click(function(){$('#modal-zakaz').modal('show');});
-
-
-	$("#tel").mask("+7 (999) 999-9999");
+	$("[name=tel]").inputmask("+7 (999) 999-9999");
+	$("[name=email]").inputmask("*{1,20}@*{1,20}[.*{1,4}]");
+	$('.send_btn').click(function () {
+		if($(this).parent().parent().find("[name=tel]").inputmask("isComplete")){send_e($(this).parent().parent(),'Обратная связь')}
+		else{$(this).parent().parent().find("[name=tel]").addClass('error');}
+	});
+	$('[name=tel]').focus(function (){$(this).removeClass('error');});
+	$("#manager").on("hidden.bs.modal", function(){
+		$(this).find("textarea, input").show().val('');
+	});
 //Back To Top	
 	var offset = 300,
 		offset_opacity = 1200,
