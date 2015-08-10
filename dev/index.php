@@ -1,7 +1,7 @@
 <?php $title = 'Экспертиза'; ?>
 <?php $description = ''; ?>
 <?php $keywords = ''; ?>
-<?php $root='/';
+<?php $root='';
 include("blocks/meta.php");
 include("blocks/header.php");?>
 

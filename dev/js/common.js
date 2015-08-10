@@ -1,3 +1,4 @@
+$.material.init();
 function send_e(e,t){
 	var n=$(e).find('[name=name]').val(),
 		tel=$(e).find('[name=tel]').val();

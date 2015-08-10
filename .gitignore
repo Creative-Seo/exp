@@ -1,7 +1,4 @@
 node_modules/
-
-.sass-cache
-prod/
-
+.sass-cache/
 dploy.yaml
-
+dev/libs/

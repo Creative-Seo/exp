@@ -8,7 +8,7 @@ grunt.initConfig({
 		  report: 'gzip'
 		},
 		files: {
-		  'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/css/jquery.bxslider.css', 'dev/libs/font-awesome/css/font-awesome.css']
+		  'prod/css/style.min.css': ['libs/bootstrap-material-design/dist/css/ripples.css', 'dev/css/style.css']
 		}
 	  }
 	},
@@ -28,7 +28,7 @@ grunt.initConfig({
 	uglify: {
 	  my_target: {
 		files: {
-			'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/js/jquery.bxslider.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.maskedinput.min.js', 'dev/js/jquery.carouFredSel-6.1.0-packed.js', 'dev/js/common.js']
+			'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/libs/bootstrap-material/js/material.min.js', 'dev/libs/bootstrap-material/js/ripples.min.js', 'dev/js/inputmask.js', 'dev/js/slippry.js', 'dev/js/jquery.*.js', 'dev/helpers/jquery.fancybox-thumbs.js', 'dev/js/common.js']
 		}
 	  }
 	},
@@ -46,8 +46,8 @@ grunt.initConfig({
 	},
 
 	copy: {
-		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php', 'libs/font-awesome/fonts','.htaccess'], dest: 'prod/'},
-				{expand: true, cwd: 'dev/libs/font-awesome/fonts', src: ['**'], dest: 'prod/fonts'}]
+		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php', '.htaccess'], dest: 'prod/'},
+				{expand: true, cwd: 'dev/libs/bootstrap-material-design/fonts', src: ['**'], dest: 'prod/fonts'}]
 		}
 	},
 
@@ -120,7 +120,7 @@ grunt.initConfig({
 		  files: [{
 			expand: true,
 			cwd: 'dev/',
-			src: ['**/*.{png,jpg,gif,JPG}','!libs/*.{png,jpg,gif,JPG}'],
+			src: ['**/*.{png,jpg,gif,JPG,svg}','!libs/*.{png,jpg,gif,JPG,svg}'],
 			dest: 'prod/'
 		  }]
 		}
@@ -159,8 +159,8 @@ grunt.initConfig({
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-csslint');
     
-    grunt.registerTask('default', ['postcss']);
-    grunt.registerTask('all', ['postcss']);
+    grunt.registerTask('default', ['copy', 'processhtml', 'htmlmin']);
+    grunt.registerTask('all', ['csso', 'autoprefixer','uglify','copy', 'processhtml', 'htmlmin','imagemin']);
     grunt.registerTask('css', ['csso', 'autoprefixer']);
 	grunt.registerTask('js', ['uglify']);
 	grunt.registerTask('php', ['copy', 'processhtml', 'htmlmin']);
