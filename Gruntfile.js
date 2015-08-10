@@ -46,7 +46,7 @@ grunt.initConfig({
 	},
 
 	copy: {
-		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php', '.htaccess'], dest: 'prod/'},
+		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php', '.htaccess','img/*.svg'], dest: 'prod/'},
 				{expand: true, cwd: 'dev/libs/bootstrap-material-design/fonts', src: ['**'], dest: 'prod/fonts'}]
 		}
 	},
@@ -60,7 +60,7 @@ grunt.initConfig({
 		files: [{                                   
 			expand: true,
 			cwd: 'prod/',
-			src: ['**/*.php', '*.php', '!config.php', '!**/var.php', '!var.php'],
+			src: ['**/*.php', '*.php', '!config.php', '!**/var.php', '!var.php','**/*.svg'],
 			dest: 'prod/'     
 		}]
 	  }
@@ -120,7 +120,7 @@ grunt.initConfig({
 		  files: [{
 			expand: true,
 			cwd: 'dev/',
-			src: ['**/*.{png,jpg,gif,JPG,svg}','!libs/*.{png,jpg,gif,JPG,svg}'],
+			src: ['**/*.{png,jpg,gif,JPG}','!libs/*.{png,jpg,gif,JPG}'],
 			dest: 'prod/'
 		  }]
 		}

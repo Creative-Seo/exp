@@ -38,10 +38,13 @@ include($root."blocks/header.php");?>
     <div class="col-md-8 col-md-push-2 callback">
         <h3>Обратная связь</h3>
         <div class="form-group has-success">
-        <input type="text" class="form-control form-control-success floating-label" placeholder="Ваше имя">
-        <input type="text" class="form-control floating-label" placeholder="Ваш телефон">
-        <input type="text" class="form-control floating-label" placeholder="Ваш e-mail">
-        <textarea class="form-control floating-label" placeholder="Ваше сообщение"></textarea>
+			<input type="text" class="form-control form-control-success floating-label" placeholder="Ваше имя" name="name">
+			<input type="text" class="form-control floating-label" placeholder="Ваш телефон" name="tel">
+			<input type="text" class="form-control floating-label" placeholder="Ваш e-mail" name="email">
+			<textarea class="form-control floating-label" placeholder="Ваше сообщение" name="message"></textarea>
+			<span class="input-group-btn">
+				<button class="send_btn btn btn-info" type="button">Отправить</button>
+			</span>
         </div>
     </div>
   </div>
