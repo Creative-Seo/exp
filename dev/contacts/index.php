@@ -19,7 +19,7 @@ include($root."blocks/header.php");?>
              <br>
              600000, г.Владимир, Коммунальный спуск, 1 <br><br>
              пн-пт: 9:00-18:00, сб.,вс.-выходной <br><br>
-             Телефоны:  +7 (4922) 37-92-57 <br><br>
+             Телефоны:  +7 (4922) 600-943 <br><br>
              <a href="mailto:info@expert-ocenka33.ru">info@expert-ocenka33.ru</a> <br><br>
          </div>
          <div class="col-md-8"></div>

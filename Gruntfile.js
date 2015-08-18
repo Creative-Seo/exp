@@ -124,19 +124,7 @@ grunt.initConfig({
 			dest: 'prod/'
 		  }]
 		}
-	},
-	postcss: {
-      options: {
-        processors: [
-          
-          require('cssgrace'),
-        ]
-      },
-      dist: {
-        src: ['prod/css/style.min.css'],
-        dest: 'prod/css/style.min.css'
-      }
-    }
+	}
 	
 
 });
@@ -149,7 +137,7 @@ grunt.initConfig({
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-include-replace');
     grunt.loadNpmTasks('grunt-processhtml');
-    grunt.loadNpmTasks('grunt-postcss');
+    
     grunt.loadNpmTasks('grunt-csso');
     grunt.loadNpmTasks('grunt-wiredep');
     grunt.loadNpmTasks('grunt-critical');
@@ -159,8 +147,8 @@ grunt.initConfig({
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-csslint');
     
-    grunt.registerTask('default', ['copy', 'processhtml', 'htmlmin']);
-    grunt.registerTask('all', ['csso', 'autoprefixer','uglify','copy', 'processhtml', 'htmlmin','imagemin']);
+    grunt.registerTask('default', ['copy','processhtml', 'htmlmin']);
+    grunt.registerTask('all', ['csso', 'autoprefixer','uglify','copy', 'processhtml', 'htmlmin']);
     grunt.registerTask('css', ['csso', 'autoprefixer']);
 	grunt.registerTask('js', ['uglify']);
 	grunt.registerTask('php', ['copy', 'processhtml', 'htmlmin']);

@@ -12,5 +12,8 @@
     <link rel="stylesheet" href="/libs/bootstrap-material-design/dist/css/ripples.css" />
 	<link href="/css/style.css" rel="stylesheet">
 <!-- /build -->
+<!-- build:template
+	<link href="/css/style.min.css" rel="stylesheet">
+/build -->
 </head>
 <body>
