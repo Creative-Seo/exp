@@ -1,19 +1,15 @@
 @import "variables";
 @import "bootstrap";
 
-
 body {font-family: $font;}
 
-
 @import "material";
-
 
 @import "top-header";
 @import "navbar";
 @import "footer";
 @import "backToTop";
 @import "slippry";
-
 
 a:hover,
 a:focus {
@@ -29,6 +25,8 @@ a:focus {
 .navbar.navbar {
     background-color:  #01579B;
 }
+.img-col{padding:10px;}
+
 //SLider
 .news-slider {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.176);
@@ -37,9 +35,7 @@ a:focus {
     width: 100%;
 }
 .news-slider .text-content {
-
   background-color: transparent;
-
 }
 .news-slider .text-content p {
     background-color: rgba(56,105,142,0.7);
@@ -51,11 +47,11 @@ a:focus {
     font-weight: 700;
 }
 .news-slider .text-content {
-    
-   
-  
     padding: 2em;
     width: 40%;
+}
+@media (max-width: 970px) {
+	.news-slider  .text-content{width:100%;}
 }
 //SLider
 

@@ -8,7 +8,7 @@ grunt.initConfig({
 		  report: 'gzip'
 		},
 		files: {
-		  'prod/css/style.min.css': ['libs/bootstrap-material-design/dist/css/ripples.css', 'dev/css/style.css']
+		  'prod/css/style.min.css': ['libs/bootstrap-material-design/dist/css/ripples.css', 'dev/css/jquery.fancybox.css', 'dev/css/style.css']
 		}
 	  }
 	},

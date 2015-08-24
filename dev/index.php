@@ -22,7 +22,7 @@ include("blocks/header.php");?>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/avtotehnicheskaya"><img src="/img/autoexp.jpg" alt="" class="img-responsive"></a>
+    		<a href="/avtotehnicheskaya"><img src="/img/autoexp.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
     <div class="col-md-4">
@@ -33,7 +33,7 @@ include("blocks/header.php");?>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/ocenochnaya-ekspertiza"><img src="/img/img2.jpg" alt="" class="img-responsive"></a>
+    		<a href="/ocenochnaya-ekspertiza"><img src="/img/img2.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
     <div class="col-md-4">
@@ -42,7 +42,7 @@ include("blocks/header.php");?>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/tovarovedcheskaya-ekspertiza"><img src="/img/img3.jpg" alt="" class="img-responsive"></a>
+    		<a href="/tovarovedcheskaya-ekspertiza"><img src="/img/img3.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div> 
   </div>
@@ -55,7 +55,7 @@ include("blocks/header.php");?>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/metallovedcheskaya-ekspertiza"><img src="/img/img1.jpg" alt="" class="img-responsive"></a>
+    		<a href="/metallovedcheskaya-ekspertiza"><img src="/img/img1.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
     <div class="col-md-4">
@@ -66,7 +66,7 @@ include("blocks/header.php");?>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/ekspertiza-zdaniy"><img src="/img/img2.jpg" alt="" class="img-responsive"></a>
+    		<a href="/ekspertiza-zdaniy"><img src="/img/img2.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
     <div class="col-md-4">
@@ -75,7 +75,7 @@ include("blocks/header.php");?>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/stroitelno-tehnicheskaya-ekspertiza"><img src="/img/img3.jpg" alt="" class="img-responsive"></a>
+    		<a href="/stroitelno-tehnicheskaya-ekspertiza"><img src="/img/img3.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div> 
   </div>
