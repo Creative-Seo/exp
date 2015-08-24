@@ -37,7 +37,7 @@
       <li class="dropdown">
         <a href="http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Строительство <i class="mdi-navigation-expand-more" style="font: 20px/1 'Material-Design-Icons';vertical-align:bottom;"></i></a>
         <ul class="dropdown-menu">
-          <li><a href="javascript:void(0);">Строительство</a></li>
+          <li><a href="/dekorativnaya-otdelka">Декоративная отделка</a></li>
         </ul>
       </li>
       <li><a href="javascript:void(0);">Цены</a></li>

@@ -1,4 +1,5 @@
 node_modules/
+archive/
 .sass-cache/
 dploy.yaml
 dev/libs/
