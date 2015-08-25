@@ -32,6 +32,10 @@
         <a href="http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Оценка <i class="mdi-navigation-expand-more" style="font: 20px/1 'Material-Design-Icons';vertical-align:bottom;"></i></a>
         <ul class="dropdown-menu">
           <li><a href="/ocenka-nedvizhimosti">Недвижимость</a></li>
+		  <li><a href="/ocenka-kvartiry">Квартира</a></li>
+		  <li><a href="/ocenka-avtomobilya">Автомобиль</a></li>
+		  <li><a href="/ocenka-zemli">Земля</a></li>
+		  <li><a href="/ocenka-biznesa">Бизнес</a></li>
         </ul>
       </li>
       <li class="dropdown">
