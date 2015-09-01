@@ -21,6 +21,8 @@
 	</div>
   </div>
 </header>
+<?php if ($_SERVER['REQUEST_URI'] != '/') {?>
 <div class="container">
     <div class="row"><?php include($root."blocks/navbar.php"); ?></div>
 </div>
+<?php } ?>
