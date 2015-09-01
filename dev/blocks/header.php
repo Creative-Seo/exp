@@ -15,9 +15,12 @@
 			</a></div>
 		</div>
 		<div class="col-lg-3 col-md-3 col-sm-8 col-xs-12 right-header-block">
-			<div class="phone"><span>8 (4922)</span> 600-943</div>
+			<div class="phone"><a href="tel:+74922600943" class="tel-click"><span>8 (4922)</span> 600-943</a></div>
 			<div><i class="mdi-communication-location-on"></i>Владимир, ул. Коммунальный спуск, д.1</div>
 		</div>
 	</div>
   </div>
-</header> 
+</header>
+<div class="container">
+    <div class="row"><?php include($root."blocks/navbar.php"); ?></div>
+</div>

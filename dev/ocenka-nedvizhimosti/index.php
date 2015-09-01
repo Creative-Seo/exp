@@ -5,10 +5,6 @@
 include($root."blocks/meta.php");
 include($root."blocks/header.php");?> 
 
-<div class="container">
-    <div class="row"><?php include($root."blocks/navbar.php"); ?></div>
-</div>
-
 <article>
    <div class="container">
 		<h1>Оценка недвижимости</h1>

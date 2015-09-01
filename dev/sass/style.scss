@@ -15,6 +15,9 @@ a:hover,
 a:focus {
   color: #D50000;
 }
+.tel-click {
+	&, &:hover, &:focus{color:inherit;text-decoration: inherit;}
+}
 .navbar-material-light-blue-900.navbar .dropdown-menu li > a:hover, .navbar-material-light-blue-900.navbar .dropdown-menu li > a:focus {
   color: #D50000;
 }
@@ -75,9 +78,11 @@ article {
     ul {
         li {
             list-style-type: none;
-        &:before {
-            content: "- ";
-        }    
+			&:before {
+				content: "\2014\a0";
+				margin-left: -1ex;
+				margin-right: 1ex;
+			}    
         }
     }
 }
