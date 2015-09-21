@@ -16069,7 +16069,7 @@ a:focus {
 /* line 19, ../sass/style.scss */
 .tel-click, .tel-click:hover, .tel-click:focus {
   color: inherit;
-  text-decoration: inherit; }
+  text-decoration: none; }
 
 /* line 21, ../sass/style.scss */
 .navbar-material-light-blue-900.navbar .dropdown-menu li > a:hover, .navbar-material-light-blue-900.navbar .dropdown-menu li > a:focus {

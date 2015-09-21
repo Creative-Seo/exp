@@ -17,7 +17,7 @@
           <li><a href="/dosudebnaya-stroitelnaya-ekspertiza/">Досудебная строительная</a></li>
           <li><a href="/ekspertiza-ushcherba-posle-zaliva-kvartiry/">Ущерб после залива квартиры</a></li>
           <li><a href="/ekspertiza-ushcherba-pri-stihiynyh-bedstviyah/">Ущерб при стихийных бедствиях</a></li>
-          <li><a href="/negosudarstvennaya-ekspertiza/">Негосударственная проектной документации</a></li>
+          <li><a href="/negosudarstvennaya-ekspertiza/">Экспертиза проектной документации</a></li>
           <li><a href="/ocenochnaya-ekspertiza/">Оценочная</a></li>
           <li><a href="/avtotehnicheskaya/">Автотехническая</a></li>
           <li><a href="/tovarovedcheskaya-ekspertiza/">Товароведческая</a></li>
