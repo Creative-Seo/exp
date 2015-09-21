@@ -22,7 +22,7 @@ include("blocks/header.php");?>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/ocenka-nedvizhimosti/"><img src="/img/nedviz.png" alt="" class="img-responsive center-block"></a>
+    		<a href="/ocenka-nedvizhimosti/"><img src="/img/nedv.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
     <div class="col-md-4">
@@ -53,7 +53,7 @@ include("blocks/header.php");?>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/stroitelno-tehnicheskaya-ekspertiza/"><img src="/img/img3.jpg" alt="" class="img-responsive center-block"></a>
+    		<a href="/stroitelno-tehnicheskaya-ekspertiza/"><img src="/img/tehn.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
     
@@ -82,7 +82,7 @@ include("blocks/header.php");?>
     <div class="col-md-4">
       <div class="block shadow-z-2 arrow_box_bottom">
         <h3><a href="/dekorativnaya-otdelka/">Декоративная <br> отделка</a></h3>
-        <p>Проведение судебных экспертиз по запросам арбитражных судов</p>
+        <p>Разработка и реализация любых дизайн проектов во Владимире</p>
       </div>
       <div class="shadow-z-2">
         <a href="/dekorativnaya-otdelka/"><img src="/img/dekor.jpg" alt="" class="img-responsive center-block"></a>
@@ -92,7 +92,7 @@ include("blocks/header.php");?>
     <div class="col-md-4">
       <div class="block shadow-z-2 arrow_box_bottom">
         <h3><a href="/dizayn-interera/">Дизайн <br> интерьера</a></h3>
-        <p>Проведение судебных экспертиз по запросам арбитражных судов</p>
+        <p>Разработка и реализация любых дизайн проектов во Владимире</p>
       </div>
       <div class="shadow-z-2">
         <a href="/dizayn-interera/"><img src="/img/interier.jpg" alt="" class="img-responsive center-block"></a>
@@ -102,7 +102,7 @@ include("blocks/header.php");?>
     <div class="col-md-4">
       <div class="block shadow-z-2 arrow_box_bottom">
         <h3><a href="/otdelka-fasada-doma/">Отделка фасада <br> дома</a></h3>
-        <p>Проведение судебных экспертиз по запросам арбитражных судов</p>
+        <p>Разработка и реализация любых дизайн проектов во Владимире</p>
       </div>
       <div class="shadow-z-2">
         <a href="/otdelka-fasada-doma/"><img src="/img/fasad.jpg" alt="" class="img-responsive center-block"></a>
