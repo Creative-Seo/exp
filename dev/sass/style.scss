@@ -11,6 +11,8 @@ body {font-family: $font;}
 @import "backToTop";
 @import "slippry";
 
+h2{font-size: 28px;}
+
 a:hover,
 a:focus {
   color: #D50000;
@@ -181,4 +183,5 @@ article {
 		width: 200px;
 	}
 }
+
 input.error {border-bottom:red 1px solid; color:red;}
