@@ -13,62 +13,40 @@ include("blocks/header.php");?>
        <?php include("blocks/slippry.php"); ?>
 	</div>
 </div>
-
+<!--Первая колонка-->
 <div class="container service">
   <div class="row">
     <div class="col-md-4">
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/avtotehnicheskaya/">Автотехническая <br> экспертиза</a></h3>
+    		<h3><a href="/ocenka-nedvizhimosti/">Оценка <br> недвижимости</a></h3>
+    		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
+    	</div>
+    	<div class="shadow-z-2">
+    		<a href="/ocenka-nedvizhimosti/"><img src="/img/nedviz.png" alt="" class="img-responsive center-block"></a>
+    	</div>
+    </div>
+    <div class="col-md-4">
+    	<div class="block shadow-z-2 arrow_box_bottom">
+    		<h3><a href="/avtotehnicheskaya/">Автотехническая<br>экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
     		<a href="/avtotehnicheskaya/"><img src="/img/autoexp.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
+    
     <div class="col-md-4">
-    	
-    	
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/ocenochnaya-ekspertiza/">Оценочная <br> экспертиза</a></h3>
+    		<h3><a href="/ocenka-biznesa/">Оценка<br>бизнеса</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/ocenochnaya-ekspertiza/"><img src="/img/img2.jpg" alt="" class="img-responsive center-block"></a>
-    	</div>
-    </div>
-    <div class="col-md-4">
-    	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/tovarovedcheskaya-ekspertiza/">Товароведческая экспертиза</a></h3>
-    		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
-    	</div>
-    	<div class="shadow-z-2">
-    		<a href="/tovarovedcheskaya-ekspertiza/"><img src="/img/img3.jpg" alt="" class="img-responsive center-block"></a>
+    		<a href="/ocenka-biznesa/"><img src="/img/biznesexp.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div> 
   </div>
-
-
+<!--Вторая колонка-->
 <div class="row">
-    <div class="col-md-4">
-    	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/metallovedcheskaya-ekspertiza/">Металловедческая <br> экспертиза</a></h3>
-    		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
-    	</div>
-    	<div class="shadow-z-2">
-    		<a href="/metallovedcheskaya-ekspertiza/"><img src="/img/img1.jpg" alt="" class="img-responsive center-block"></a>
-    	</div>
-    </div>
-    <div class="col-md-4">
-    	
-    	
-    	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/ekspertiza-zdaniy/">Здания и <br> сооружения</a></h3>
-    		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
-    	</div>
-    	<div class="shadow-z-2">
-    		<a href="/ekspertiza-zdaniy/"><img src="/img/img2.jpg" alt="" class="img-responsive center-block"></a>
-    	</div>
-    </div>
     <div class="col-md-4">
     	<div class="block shadow-z-2 arrow_box_bottom">
     		<h3><a href="/stroitelno-tehnicheskaya-ekspertiza/">Строительно-техническая <br> экспертиза</a></h3>
@@ -77,9 +55,61 @@ include("blocks/header.php");?>
     	<div class="shadow-z-2">
     		<a href="/stroitelno-tehnicheskaya-ekspertiza/"><img src="/img/img3.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
+    </div>
+    
+    <div class="col-md-4">
+    	<div class="block shadow-z-2 arrow_box_bottom">
+    		<h3><a href="/ekspertiza-ushcherba-posle-zaliva-kvartiry/">Экспертиза ущерба <br>после залива квартиры</a></h3>
+    		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
+    	</div>
+    	<div class="shadow-z-2">
+    		<a href="/ekspertiza-ushcherba-posle-zaliva-kvartiry/"><img src="/img/zaliv.jpg" alt="" class="img-responsive center-block"></a>
+    	</div>
+    </div>
+   
+    <div class="col-md-4">
+    	<div class="block shadow-z-2 arrow_box_bottom">
+    		<h3><a href="/negosudarstvennaya-ekspertiza/">Негосударственная <br> экспертиза</a></h3>
+    		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
+    	</div>
+    	<div class="shadow-z-2">
+    		<a href="/negosudarstvennaya-ekspertiza/"><img src="/img/negosexp.jpg" alt="" class="img-responsive center-block"></a>
+    	</div>
     </div> 
   </div>
-  
+<!--Третья колонка-->
+  <div class="row">
+    <div class="col-md-4">
+      <div class="block shadow-z-2 arrow_box_bottom">
+        <h3><a href="/dekorativnaya-otdelka/">Декоративная <br> отделка</a></h3>
+        <p>Проведение судебных экспертиз по запросам арбитражных судов</p>
+      </div>
+      <div class="shadow-z-2">
+        <a href="/dekorativnaya-otdelka/"><img src="/img/dekor.jpg" alt="" class="img-responsive center-block"></a>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="block shadow-z-2 arrow_box_bottom">
+        <h3><a href="/dizayn-interera/">Дизайн <br> интерьера</a></h3>
+        <p>Проведение судебных экспертиз по запросам арбитражных судов</p>
+      </div>
+      <div class="shadow-z-2">
+        <a href="/dizayn-interera/"><img src="/img/interier.jpg" alt="" class="img-responsive center-block"></a>
+      </div>
+    </div>
+   
+    <div class="col-md-4">
+      <div class="block shadow-z-2 arrow_box_bottom">
+        <h3><a href="/otdelka-fasada-doma/">Отделка фасада <br> дома</a></h3>
+        <p>Проведение судебных экспертиз по запросам арбитражных судов</p>
+      </div>
+      <div class="shadow-z-2">
+        <a href="/otdelka-fasada-doma/"><img src="/img/fasad.jpg" alt="" class="img-responsive center-block"></a>
+      </div>
+    </div> 
+  </div>
+  <!--Добавил-->
 
 
   <div class="row">
