@@ -1,6 +1,0 @@
-User-agent: *
-Sitemap: http://www.expert-ocenka33.ru/sitemap.xml
-
-User-agent: Yandex
-Host: http://www.expert-ocenka33.ru
-Sitemap: http://www.expert-ocenka33.ru/sitemap.xml
