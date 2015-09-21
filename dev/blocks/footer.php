@@ -6,7 +6,7 @@
 		 		<li><a href="#">Экспертиза</a></li>
 		 		<li><a href="#">Лицензии</a></li>
 		 		<li><a href="#">Наши клиенты</a></li>
-		 		<li><a href="<?php echo $rootpath; ?>contacts">Контакты</a></li>
+		 		<li><a href="/contacts/">Контакты</a></li>
 		 		<li><a href="#" data-toggle="modal" data-target="#modal-zakaz">Обратная связь</a></li>
 		 	</ul>
 		 </div>

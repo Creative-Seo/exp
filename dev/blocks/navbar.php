@@ -53,11 +53,11 @@
       <li class="dropdown">
         <a href="http://fezvrasta.github.io/bootstrap-material-design/bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">О нас <i class="mdi-navigation-expand-more" style="font: 20px/1 'Material-Design-Icons';vertical-align:bottom;"></i></a>
         <ul class="dropdown-menu">
-		  <li><a href="javascript:void(0);">О компании</a></li>
-		  <li><a href="/sertifikaty/">Сертификаты</a></li>
+		      <li><a href="javascript:void(0);">О компании</a></li>
+		      <li><a href="/sertifikaty/">Сертификаты</a></li>
         </ul>
-        <li><a href="/contacts/">Контакты</a></li>
       </li>
+      <li><a href="/contacts/">Контакты</a></li>
     </ul>
 
     <form class="navbar-form navbar-right">

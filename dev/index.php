@@ -18,31 +18,31 @@ include("blocks/header.php");?>
   <div class="row">
     <div class="col-md-4">
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/avtotehnicheskaya">Автотехническая <br> экспертиза</a></h3>
+    		<h3><a href="/avtotehnicheskaya/">Автотехническая <br> экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/avtotehnicheskaya"><img src="/img/autoexp.jpg" alt="" class="img-responsive center-block"></a>
+    		<a href="/avtotehnicheskaya/"><img src="/img/autoexp.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
     <div class="col-md-4">
     	
     	
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/ocenochnaya-ekspertiza">Оценочная <br> экспертиза</a></h3>
+    		<h3><a href="/ocenochnaya-ekspertiza/">Оценочная <br> экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/ocenochnaya-ekspertiza"><img src="/img/img2.jpg" alt="" class="img-responsive center-block"></a>
+    		<a href="/ocenochnaya-ekspertiza/"><img src="/img/img2.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
     <div class="col-md-4">
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/tovarovedcheskaya-ekspertiza">Товароведческая экспертиза</a></h3>
+    		<h3><a href="/tovarovedcheskaya-ekspertiza/">Товароведческая экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/tovarovedcheskaya-ekspertiza"><img src="/img/img3.jpg" alt="" class="img-responsive center-block"></a>
+    		<a href="/tovarovedcheskaya-ekspertiza/"><img src="/img/img3.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div> 
   </div>
@@ -51,31 +51,31 @@ include("blocks/header.php");?>
 <div class="row">
     <div class="col-md-4">
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/metallovedcheskaya-ekspertiza">Металловедческая <br> экспертиза</a></h3>
+    		<h3><a href="/metallovedcheskaya-ekspertiza/">Металловедческая <br> экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/metallovedcheskaya-ekspertiza"><img src="/img/img1.jpg" alt="" class="img-responsive center-block"></a>
+    		<a href="/metallovedcheskaya-ekspertiza/"><img src="/img/img1.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
     <div class="col-md-4">
     	
     	
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/ekspertiza-zdaniy">Здания и <br> сооружения</a></h3>
+    		<h3><a href="/ekspertiza-zdaniy/">Здания и <br> сооружения</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/ekspertiza-zdaniy"><img src="/img/img2.jpg" alt="" class="img-responsive center-block"></a>
+    		<a href="/ekspertiza-zdaniy/"><img src="/img/img2.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div>
     <div class="col-md-4">
     	<div class="block shadow-z-2 arrow_box_bottom">
-    		<h3><a href="/stroitelno-tehnicheskaya-ekspertiza">Строительно-техническая <br> экспертиза</a></h3>
+    		<h3><a href="/stroitelno-tehnicheskaya-ekspertiza/">Строительно-техническая <br> экспертиза</a></h3>
     		<p>Проведение судебных экспертиз по запросам арбитражных судов</p>
     	</div>
     	<div class="shadow-z-2">
-    		<a href="/stroitelno-tehnicheskaya-ekspertiza"><img src="/img/img3.jpg" alt="" class="img-responsive center-block"></a>
+    		<a href="/stroitelno-tehnicheskaya-ekspertiza/"><img src="/img/img3.jpg" alt="" class="img-responsive center-block"></a>
     	</div>
     </div> 
   </div>
