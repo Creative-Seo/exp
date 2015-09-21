@@ -23,10 +23,10 @@
 		 <div class="col-md-6 copyright">
 			 © <span itemprop="name">Центр судебных экспертиз</span>, 2015
 		 </div>
-		<div class="col-md-6 copyright text-rigth" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<div class="col-md-6 copyright" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			<span itemprop="addressLocality">Владимир</span>,
+			<span itemprop="postalCode"> 600000</span>,
 		    <span itemprop="streetAddress">ул. Коммунальный спуск, д.1</span>
-		    <span itemprop="postalCode"> 600000</span>
-		    <span itemprop="addressLocality">Владимир</span>,
 		 </div>
 	  </div>
 	</div>
