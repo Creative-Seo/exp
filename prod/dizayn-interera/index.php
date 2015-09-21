@@ -1,1 +1,7 @@
-<?php $title = 'Дизайн интерьера'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Дизайн интерьера';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>

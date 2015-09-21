@@ -1,1 +1,7 @@
-<?php $title = 'Оценка бизнеса'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Оценка бизнеса';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>

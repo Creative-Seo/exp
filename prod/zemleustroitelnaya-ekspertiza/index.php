@@ -1,1 +1,7 @@
-<?php $title = 'Землеустроительная экспертиза'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Землеустроительная экспертиза';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>

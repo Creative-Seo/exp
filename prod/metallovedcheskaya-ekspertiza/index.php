@@ -1,1 +1,7 @@
-<?php $title = 'Металловедческая экспертиза'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Металловедческая экспертиза';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>

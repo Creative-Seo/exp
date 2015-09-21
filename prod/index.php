@@ -1,1 +1,7 @@
-<?php $title = 'Экспертиза'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Экспертиза';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>

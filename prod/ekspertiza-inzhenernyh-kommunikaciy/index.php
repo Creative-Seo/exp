@@ -1,1 +1,7 @@
-<?php $title = 'Экспертиза инженерных коммуникаций'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Экспертиза инженерных коммуникаций';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>
