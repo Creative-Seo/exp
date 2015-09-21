@@ -3,5 +3,5 @@ $title = 'Экспертиза';
 $description = '';
 $keywords = '';
 
-include("content.php");
+include("blocks/meta.php");
 ?>
