@@ -3,4 +3,3 @@ node_modules/
 dploy.yaml
 dev/libs/
 *.log
-npm-debug.log
