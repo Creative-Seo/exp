@@ -1,1 +1,7 @@
-<?php $title = 'Оценка автомобиля'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Оценка автомобиля';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>

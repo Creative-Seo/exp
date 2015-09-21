@@ -1,1 +1,7 @@
-<?php $title = 'Оценка земли'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Оценка земли';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>

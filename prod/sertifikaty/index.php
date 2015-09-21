@@ -1,1 +1,7 @@
-<?php $title = 'Сертификаты'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Сертификаты';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>

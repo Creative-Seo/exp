@@ -1,1 +1,7 @@
-<?php $title = 'Товароведческая экспертиза'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Товароведческая экспертиза';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>

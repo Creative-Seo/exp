@@ -1,1 +1,7 @@
-<?php $title = 'Оценка недвижимости'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Оценка недвижимости';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>

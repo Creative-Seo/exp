@@ -1,1 +1,7 @@
-<?php $title = 'Отделка фасада дома'; $description = ''; $keywords = ''; include("content.php"); ?>
+<?php
+$title = 'Отделка фасада дома';
+$description = '';
+$keywords = '';
+
+include("content.php");
+?>
