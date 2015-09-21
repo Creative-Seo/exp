@@ -109,9 +109,7 @@ include("blocks/header.php");?>
       </div>
     </div> 
   </div>
-  <!--Добавил-->
-
-
+  
   <div class="row">
    <article>
   	<h1>Судебные технические экспертизы во Владимире</h1> 
