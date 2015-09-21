@@ -1,4 +1,4 @@
-<footer>
+<footer itemscope itemtype="http://schema.org/Organization">
 	<div class="container">
 	  <div class="row">
 		 <div class="col-md-6">
@@ -12,8 +12,8 @@
 		 </div>
 		 <div class="col-md-6 footer-contacts">
 		    <ul>
-		    	<li class="phone">8 (4922) 600-943</li>
-		    	<li><a class="mail" href="mailto:info@expert-ocenka33.ru">info@expert-ocenka33.ru</a></li>
+		    	<li class="phone" itemprop="telephone">8 (4922) 600-943</li>
+		    	<li><a class="mail" href="mailto:info@expert-ocenka33.ru" itemprop="email">info@expert-ocenka33.ru</a></li>
 		    </ul>
 		 	            
 		 </div>
@@ -21,8 +21,13 @@
 	  </div>
 	  <div class="row">
 		 <div class="col-md-6 copyright">
-		 © Центр судебных экспертиз, 2015
-		 </div> 
+			 © <span itemprop="name">Центр судебных экспертиз</span>, 2015
+		 </div>
+		<div class="col-md-6 copyright text-rigth" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		    <span itemprop="streetAddress">ул. Коммунальный спуск, д.1</span>
+		    <span itemprop="postalCode"> 600000</span>
+		    <span itemprop="addressLocality">Владимир</span>,
+		 </div>
 	  </div>
 	</div>
 </footer>
