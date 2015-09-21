@@ -7,7 +7,7 @@
     <title><?php echo $title; ?></title>
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="keywords" content="<?php echo $keywords; ?>">
-    <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <link href="/favicon.ico" rel="shortcut icon" type="dev/favicon.ico">
 <!-- build:remove -->
     <link rel="stylesheet" href="/libs/bootstrap-material-design/dist/css/ripples.css">
     <link rel="stylesheet" href="/css/jquery.fancybox.css">
